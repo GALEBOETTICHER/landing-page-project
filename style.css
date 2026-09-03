@@ -1,11 +1,34 @@
 * {
     font-family: Roboto;
-    /* outline: 2px solid  red; */
+    outline: 2px solid  red;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+.top-section {
+    color: #F9FAF8;
+    padding-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-top {
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
 }
 
 .top-section, footer {
@@ -14,16 +37,24 @@ body {
 
 .quote-section {
     background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+}
 
+.author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+}
 
+.quote-container {
+    max-width: 560px;
 }
 
 
@@ -31,4 +62,6 @@ footer {
     padding: 30px;
     text-align: center;
     color: white;
+    font-size: smaller;
+    font-weight: lighter;
 }
