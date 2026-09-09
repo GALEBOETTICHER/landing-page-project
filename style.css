@@ -71,3 +71,27 @@ footer {
     font-size: smaller;
     font-weight: lighter;
 }
+
+.boxrec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    /* flex-wrap: nowrap; */
+    /* flex-shrink: 1; */
+    flex-direction: column;
+}
+
+.random-info {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
