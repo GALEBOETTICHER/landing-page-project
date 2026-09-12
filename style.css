@@ -1,6 +1,6 @@
 * {
     font-family: Roboto;
-    outline: 2px solid  red;
+    /* outline: 2px solid  red; */
 }
 
 body {
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-.top-section {
+/* .top-section {
     color: #F9FAF8;
     padding-top: 16px;
     display: flex;
@@ -30,11 +30,21 @@ ul {
     display: flex;
     gap: 16px;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}*/
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
-li {
+ul {
     list-style-type: none;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .top-section, footer {
